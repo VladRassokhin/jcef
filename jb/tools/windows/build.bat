@@ -52,6 +52,6 @@ echo "Environment variables:"
 echo "  JDK_11           - Path to OpenJDK 11 home with the same CPU architecture you are building JCEF against (x86_64 or arm64)."
 echo "  ANT_HOME         - Path to 'ant' home, or if not set then 'ant' must be in PATH."
 echo "  JCEF_CMAKE       - Path to CMake home. CMake of version 3.14.7 or above is required."
-echo "  PYTHON_27_PATH   - Path to python 2.7 exe."
+echo "  JCEF_PYTHON      - Path to python executable."
 echo "  VS160COMNTOOLS   - Path to <Visual Studio 2019 installation>\Common7\Tools."
 exit /b 0
