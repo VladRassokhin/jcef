@@ -51,9 +51,7 @@ echo "  clean [arch]     - Clean all the artifacts. Optional 'arch' is the same 
 echo "Environment variables:"
 echo "  JDK_11           - Path to OpenJDK 11 home with the same CPU architecture you are building JCEF against (x86_64 or arm64)."
 echo "  ANT_HOME         - Path to 'ant' home, or if not set then 'ant' must be in PATH."
-echo "  JCEF_CMAKE       - Path to CMake home. CMake of version 3.7 or above is required (3.14.7 or above if you are building for ARM64)."
+echo "  JCEF_CMAKE       - Path to CMake home. CMake of version 3.14.7 or above is required."
 echo "  PYTHON_27_PATH   - Path to python 2.7 exe."
-echo "  VS140COMNTOOLS   - Provided with <VS2012 x64 Cross Tools Command Prompt>."
-echo "  [VS160COMNTOOLS] - Path to <Visual Studio 2019 installation>\Common7\Tools."
-echo "                     Required if you are building for ARM64 ('build.bat all arm64')."
+echo "  VS160COMNTOOLS   - Path to <Visual Studio 2019 installation>\Common7\Tools."
 exit /b 0
